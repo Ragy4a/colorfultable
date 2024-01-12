@@ -1,0 +1,36 @@
+:root{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+caption{
+    font-size: 30px;
+    color: gold;
+}
+table{
+    border: 3px solid red;
+}
+td,
+th{
+    border: 3px solid blue;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+tbody td:first-child{ 
+    color: darkcyan;
+    background-color: skyblue;
+}
+tbody>tr:nth-child(even){
+    background-color: aquamarine;
+}
+tbody>tr:nth-child(odd){
+    background-color: bisque;
+}
+thead{
+    background-color: yellow;
+}
+tfoot{
+    background-color: brown;
+}

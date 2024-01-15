@@ -2,21 +2,24 @@
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-caption{
-    font-size: 30px;
+caption::after{
+    content: " #5 lesson";
+    font-size: 20px;
     color: gold;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 table{
     border: 3px solid red;
+    height: 600px;
+    width: 400px;
 }
 td,
 th{
     border: 3px solid blue;
-}
-body{
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 tbody td:first-child{ 
     color: darkcyan;
